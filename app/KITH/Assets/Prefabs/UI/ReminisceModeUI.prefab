@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 2629531727254596633}
   - component: {fileID: 7049492147872557135}
   m_Layer: 5
-  m_Name: ReminisceUI
+  m_Name: ReminisceModeUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
