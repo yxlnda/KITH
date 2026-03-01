@@ -334,7 +334,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &937772876
+--- !u!1001 &870558090
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -344,7 +344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1714065757668303921, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
       propertyPath: m_Name
-      value: CheckInUI
+      value: DailyEntryUI
       objectReference: {fileID: 0}
     - target: {fileID: 2595184227675079677, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
       propertyPath: m_Pivot.x
@@ -426,10 +426,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5899945158750128572, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -11
-      objectReference: {fileID: 0}
     - target: {fileID: 6217896673417633166, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -437,14 +433,6 @@ PrefabInstance:
     - target: {fileID: 6217896673417633166, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7057523513565295012, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -11
-      objectReference: {fileID: 0}
-    - target: {fileID: 7980171215883239208, guid: 7b8ddac5885372c48a7f6ba97fd233e9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -456,6 +444,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 848740453}
-  - {fileID: 937772876}
+  - {fileID: 870558090}
   - {fileID: 469109784}
   - {fileID: 572631527}
