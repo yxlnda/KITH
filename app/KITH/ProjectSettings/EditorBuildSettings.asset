@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/11_DailyEntry.unity
     guid: 7588b34f10c2c694e95fdafd9c7f5a0f
   - enabled: 1
-    path: Assets/Scenes/12_MemoryLog.unity
+    path: Assets/Scenes/13_Reminisce.unity
     guid: fbca1f2438f9f0246bb09e24cb722e39
   - enabled: 1
-    path: Assets/Scenes/13_ReminisceMode.unity
+    path: Assets/Scenes/12_RecordMemory.unity
     guid: 8a1343ff0505365448b2106c0baf2c56
   - enabled: 1
     path: Assets/Scenes/14_PatientQR.unity
