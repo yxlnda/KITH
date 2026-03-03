@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/15_SnapMemory.unity
     guid: 94fbfabf27bdc9145985d86d4cb63bc4
+  - enabled: 1
+    path: Assets/Scenes/16_AddPhoto.unity
+    guid: 18551f47ad29a4140a68a15bf93d6b39
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
