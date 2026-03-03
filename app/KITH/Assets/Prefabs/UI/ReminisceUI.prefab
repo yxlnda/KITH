@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 8533583566917949380}
   - component: {fileID: 796736123574818946}
   m_Layer: 5
-  m_Name: MemoryLogUI
+  m_Name: ReminisceUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
