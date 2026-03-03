@@ -519,6 +519,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1387065536312740616, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252251357542698168, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484443050141854469, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883784063005956649, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 5389205806289429116, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6355851636201473785, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
       propertyPath: m_Name
       value: PatientHomeUI
@@ -546,6 +566,34 @@ PrefabInstance:
     - target: {fileID: 7405036285315241647, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 11_DailyEntry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656172780559370724, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172092068297252681, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172092068297252681, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988645812599845927, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988645812599845927, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988645812599845927, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000076294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988645812599845927, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
