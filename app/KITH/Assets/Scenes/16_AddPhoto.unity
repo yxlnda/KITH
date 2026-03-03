@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AddPhotoUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3541094740687515612, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+      propertyPath: m_text
+      value: Option A
+      objectReference: {fileID: 0}
     - target: {fileID: 5944659246433926303, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -333,6 +337,14 @@ PrefabInstance:
     - target: {fileID: 5944659246433926303, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770762275275391463, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1096850208}
+    - target: {fileID: 8770762275275391463, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
