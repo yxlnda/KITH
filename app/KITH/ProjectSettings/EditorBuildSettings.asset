@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/22_CaretakerSettings.unity
     guid: 3f52fb79db0a93c47a40139c4ecba3b8
+  - enabled: 1
+    path: Assets/Scenes/15_SnapMemory.unity
+    guid: 94fbfabf27bdc9145985d86d4cb63bc4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
