@@ -15,3 +15,32 @@
 .DS_Store
 Thumbs.db
 **/Burst/**
+
+# --- Unity recommended ignores ---
+MemoryCaptures/
+CrashReports/
+Assets/AssetStoreTools*
+
+# Ignore built packages
+ExportedObj/
+Packages/com.unity.collab-proxy/
+
+# Ignore auto-generated files
+sysinfo.txt
+
+# --- PackageCache (VERY IMPORTANT) ---
+# This prevents 100MB Unity DLLs from being committed again
+**/Library/PackageCache/
+**/Library/PackageCache.meta
+
+# --- Additional safe Unity ignores ---
+# (optional but recommended)
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
+*.pdb
+
+**/node_modules/
