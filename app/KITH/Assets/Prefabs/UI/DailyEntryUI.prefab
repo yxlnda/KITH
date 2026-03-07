@@ -934,8 +934,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1164,7 +1164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399.7704, y: -228.91483}
+  m_AnchoredPosition: {x: 399.7704, y: -194.11484}
   m_SizeDelta: {x: 304.2, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8405720391580081442
@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1707,8 +1707,8 @@ Transform:
   - {fileID: 1132516440883428499}
   - {fileID: 3263942960958666182}
   - {fileID: 7254992764256795569}
-  - {fileID: 1552117251848630894}
   - {fileID: 178032805065060638}
+  - {fileID: 1552117251848630894}
   m_Father: {fileID: 2595184227675079677}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3818428011044428946
@@ -2030,6 +2030,7 @@ GameObject:
   - component: {fileID: 3521147416112570508}
   - component: {fileID: 786565684977581328}
   - component: {fileID: 7538614216456432879}
+  - component: {fileID: 7856470853045448850}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -2054,7 +2055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 238.77039, y: 177.38516}
+  m_AnchoredPosition: {x: 272.67035, y: 151.38516}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3521147416112570508
@@ -2085,8 +2086,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2139,10 +2140,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+      - m_Target: {fileID: 7856470853045448850}
+        m_TargetAssemblyTypeName: UIButtonSceneLoader, Assembly-CSharp
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2151,6 +2152,19 @@ MonoBehaviour:
           m_StringArgument: 10_PatientHome
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7856470853045448850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4624356301133909232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: '10_PatientHome '
 --- !u!1 &5415403846272127375
 GameObject:
   m_ObjectHideFlags: 0
