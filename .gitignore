@@ -44,3 +44,6 @@ sysinfo.txt
 *.pdb
 
 **/node_modules/
+
+# Security
+backend/.env
