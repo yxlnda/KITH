@@ -211,22 +211,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PatientHomeUI
       objectReference: {fileID: 0}
-    - target: {fileID: 6838206662946913048, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838206662946913048, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadReminisce
-      objectReference: {fileID: 0}
-    - target: {fileID: 7405036285315241647, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7405036285315241647, guid: 9f20bee27c061104aacd9e72842d30f3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadDailyEntry
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
