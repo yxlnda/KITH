@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class CaretakerNavManager : MonoBehaviour
 {
-    // Assign these in the Inspector to match your Scene names
+    // Assign these in the Inspector to match scene names
     public void OpenPairingSystem() => SceneManager.LoadScene("20_Caretak..."); 
     public void OpenDashboard() => SceneManager.LoadScene("21_Caretake...");
     public void OpenGuide() => SceneManager.LoadScene("CT_Guide_Scene"); // Create this scene

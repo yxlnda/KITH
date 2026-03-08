@@ -15,7 +15,7 @@ public class CaretakerDashboard : MonoBehaviour
         string lastMood = PlayerPrefs.GetString("LastMood", "No data yet");
         patientStatusText.text = "Today's Status: " + lastMood;
         
-        // Note: For a visual Donut Graph, you would usually 
+        // Note: For a visual  
         // update the 'Fill Amount' of a UI Image (Radial) 
         // based on a percentage of Happy vs Sad entries.
     }

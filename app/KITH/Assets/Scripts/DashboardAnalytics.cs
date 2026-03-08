@@ -19,7 +19,7 @@ public class DashboardAnalytics : MonoBehaviour
 
     public void DisplayMoodStats()
     {
-        // In a real app, you'd calculate percentages from a database
+        // In a real app, calculate percentages from a database
         // Example: 60% Happy, 20% Neutral, 20% Sad
         happyFill.fillAmount = 0.6f; 
         neutralFill.fillAmount = 0.8f; // Layered: (Happy + Neutral)
