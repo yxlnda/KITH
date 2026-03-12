@@ -1641,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5325827913891100567, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+      propertyPath: sceneName
+      value: 11_DailyEntry
+      objectReference: {fileID: 0}
     - target: {fileID: 5673159653862043632, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2060,7 +2064,7 @@ PrefabInstance:
     - target: {fileID: 8770762275275391463, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1096850208}
+      objectReference: {fileID: 1200347539}
     - target: {fileID: 8770762275275391463, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadScene
@@ -2118,6 +2122,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+--- !u!114 &1200347539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5325827913891100567, guid: e7d961d66ede2044989cb79af760b5d5, type: 3}
+  m_PrefabInstance: {fileID: 1200347538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
 --- !u!1001 &1202110249
 PrefabInstance:
   m_ObjectHideFlags: 0

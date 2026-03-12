@@ -119,6 +119,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &46118609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7219222610455360434, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+  m_PrefabInstance: {fileID: 154778471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &46118610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46118609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: 21_CaretakerSettings
 --- !u!1001 &154778471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -715,6 +733,34 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 46118610}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIButtonSceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480087310915253570, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6526490455746132499, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -903,6 +949,62 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 154778473}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIButtonSceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978000826244649934, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 154778477}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIButtonSceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025276003606881211, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8037908624719832440, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -938,6 +1040,34 @@ PrefabInstance:
     - target: {fileID: 8059607694934044957, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 154778475}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIButtonSceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251990647810404709, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8405955012870457957, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1022,8 +1152,74 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6284977978052665109, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154778473}
+    - targetCorrespondingSourceObject: {fileID: 7219222610455360434, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 46118610}
+    - targetCorrespondingSourceObject: {fileID: 4592969024654916133, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154778477}
+    - targetCorrespondingSourceObject: {fileID: 7175297319714469133, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154778475}
   m_SourcePrefab: {fileID: 100100000, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+--- !u!1 &154778472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6284977978052665109, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+  m_PrefabInstance: {fileID: 154778471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &154778473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154778472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: 04_PairingSystem
+--- !u!1 &154778474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7175297319714469133, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+  m_PrefabInstance: {fileID: 154778471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &154778475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154778474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: 23_CaretakerQR
+--- !u!1 &154778476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4592969024654916133, guid: bcb417f8744d4ad4bb16838676b91ad3, type: 3}
+  m_PrefabInstance: {fileID: 154778471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &154778477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154778476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: 24_CaretakerGuide
 --- !u!1 &224135809
 GameObject:
   m_ObjectHideFlags: 0

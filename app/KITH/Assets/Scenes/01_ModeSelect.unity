@@ -316,6 +316,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModeSelectUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1088763054}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIButtonSceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549950399816432322, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4210043769324530954, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -327,8 +355,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8042055290887928717, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1088763054}
   m_SourcePrefab: {fileID: 100100000, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+--- !u!1 &1088763053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8042055290887928717, guid: b6d7c07fcf3ac024f8083c1bdc8a6ab4, type: 3}
+  m_PrefabInstance: {fileID: 1088763052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1088763054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088763053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c06ab5f548a24bae6d6569584328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSceneLoader
+  sceneName: 10_PatientHome
 --- !u!1 &1440422423
 GameObject:
   m_ObjectHideFlags: 0
